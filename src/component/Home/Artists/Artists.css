@@ -1,0 +1,49 @@
+.artist-container {
+  height: 126px;
+  width: 244px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.artist-container .profile-info {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 25px;
+}
+
+.artist-container .profile-info .profile-photo {
+  position: relative;
+}
+
+.artist-container .profile-info .profile-photo img {
+  height: 2.5rem;
+  width: 2.5rem;
+  position: relative;
+}
+
+.artist-container .profile-info .profile-photo .active-dot {
+  position: absolute;
+  z-index: 999;
+  left: 30px;
+  top: -5px;
+  height: 8px;
+  width: 8px;
+  border-radius: 8px;
+  background-color: #3fc446;
+  border: solid #ffffff;
+}
+
+.artist-container .profile-info .profile-name-id h3 {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.artist-container .profile-info .profile-name-id p {
+  font-size: 0.75rem;
+  margin-top: 0;
+  color: #ffffff;
+}

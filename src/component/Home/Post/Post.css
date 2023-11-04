@@ -1,0 +1,92 @@
+.feed-post {
+  width: 100%;
+  margin-top: 12px;
+}
+.feed-post .post-header {
+  padding: 0rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.feed-post .post-header .post-profile-info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.feed-post .post-header .post-profile-info .profile-img img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.feed-post .post-header .post-profile-info .profile-information h3 {
+  font-size: 0.9rem;
+  margin-bottom: 0.1rem;
+}
+
+.feed-post .post-header .post-profile-info .profile-information p {
+  font-size: 0.75rem;
+  margin-top: 0.1rem;
+  color: grey;
+}
+.feed-post .post-header .option-icon {
+  cursor: pointer;
+}
+
+.feed-post .post-caption {
+  padding: 0rem 2rem;
+  margin: 0;
+}
+
+.feed-post .post-caption p {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+.feed-post .post-caption p span a {
+  color: #ff5e8a;
+  font-weight: 600;
+}
+
+.feed-post .post-image {
+  padding: 0rem 2rem;
+}
+
+.feed-post .post-image img {
+  height: auto;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.feed-post hr {
+  width: 95%;
+}
+
+.feed-post .post-performance {
+  padding: 0rem 2rem;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+.feed-post .post-performance img {
+  height: 1.1rem;
+  width: auto;
+}
+
+.feed-post .post-performance .post-like {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.feed-post .post-performance .post-comment {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.feed-post .post-performance .post-share {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
